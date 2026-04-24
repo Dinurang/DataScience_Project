@@ -6,10 +6,10 @@
 #### Group 03 Members
 
 ```
-Chanupa Gurusinghe     - 230222M
 Dhinanjaya Fernando    - 230181J
 Dinura Ginige          - 230202D
 Kalana Lakshan         - 230365D
+Chanupa Gurusinghe     - 230222M
 Lasana Pahanga         - 230455E
 ```
 
