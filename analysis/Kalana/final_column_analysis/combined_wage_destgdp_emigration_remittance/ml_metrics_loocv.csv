@@ -1,0 +1,7 @@
+target,model,mae,rmse,r2,n_samples,validation
+wage_all_workers_annual,LinearRegression,1230.653907619292,1776.9402732885815,0.5125891109730182,32,Leave-One-Out CV
+wage_all_workers_annual,RandomForest,1144.3667085468746,2019.8244203121808,0.37023748957876057,32,Leave-One-Out CV
+wage_all_workers_annual,GradientBoosting,1359.7574949297102,2324.140218832184,0.1661763315185989,32,Leave-One-Out CV
+dest_gdp_growth_avg_annual,LinearRegression,2.7888182301593556,4.1432251497025225,-0.3066245773064682,32,Leave-One-Out CV
+dest_gdp_growth_avg_annual,RandomForest,3.2359532107482827,4.467720279373364,-0.5193075756778254,32,Leave-One-Out CV
+dest_gdp_growth_avg_annual,GradientBoosting,3.4831490756027783,4.682000662672613,-0.6685402829512332,32,Leave-One-Out CV

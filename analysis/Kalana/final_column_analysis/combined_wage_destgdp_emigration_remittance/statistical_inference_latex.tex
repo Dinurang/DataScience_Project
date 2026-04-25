@@ -1,0 +1,21 @@
+\indent \textbf{Hypothesis 1: Joint Association of Emigration and Remittances with Wage Levels}\\
+We investigated whether annual wage levels are jointly associated with emigration volume (\texttt{slbfe\_total\_annual}) and remittance inflows (\texttt{remittances\_annual\_usd\_mn}) over 1994--2025. A multiple OLS model was fitted with annual observations ($n = 32$) at $\alpha = 0.05$.
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item \textbf{Null Hypothesis} ($H_0$): $\beta_1 = \beta_2 = 0$ (no joint linear association with \texttt{wage\_all\_workers\_annual}).
+    \item \textbf{Alternative Hypothesis} ($H_1$): At least one slope is non-zero ($\beta_1 \neq 0$ or $\beta_2 \neq 0$).
+\end{itemize}
+\noindent \textbf{Results:} The overall model was significant, $F = 23.181$, $p = 0.0000$, with $R^2 = 0.615$ (adjusted $R^2 = 0.589$). The annual wage series had mean $\bar{y} = 3229.42$ and $SD = 2585.95$. Coefficient estimates were: $\hat\beta_1 = 0.00695796$ ($p = 0.1775$; 95\% CI [-0.00333841, 0.01725433]) and $\hat\beta_2 = 0.681999$ ($p = 0.0000$; 95\% CI [0.423090, 0.940908]). Spearman checks yielded $\rho_{emig,wage} = 0.588$ ($p = 0.0004$) and $\rho_{remit,wage} = 0.908$ ($p = 0.0000$).
+
+\noindent \textbf{Interpretation:} At $\alpha = 0.05$, the null hypothesis is rejected. Emigration and remittances jointly explain a statistically meaningful share of annual wage variation in this sample, with remittances carrying the stronger partial signal under the model.
+~\\
+
+\indent \textbf{Hypothesis 2: Joint Association of Emigration and Remittances with Destination GDP Growth}\\
+We investigated whether destination GDP growth averages are jointly associated with emigration volume and remittance inflows over 1994--2025. A multiple OLS model was fitted with annual observations ($n = 32$) at $\alpha = 0.05$.
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item \textbf{Null Hypothesis} ($H_0$): $\gamma_1 = \gamma_2 = 0$ (no joint linear association with \texttt{dest\_gdp\_growth\_avg\_annual}).
+    \item \textbf{Alternative Hypothesis} ($H_1$): At least one slope is non-zero ($\gamma_1 \neq 0$ or $\gamma_2 \neq 0$).
+\end{itemize}
+\noindent \textbf{Results:} The overall model was not significant, $F = 0.961$, $p = 0.3942$, with $R^2 = 0.062$ (adjusted $R^2 = -0.002$). The destination GDP growth series had mean $\bar{y} = 4.112$ and $SD = 3.683$. Coefficient estimates were: $\hat\gamma_1 = 0.00000994$ ($p = 0.3816$; 95\% CI [-0.00001295, 0.00003284]) and $\hat\gamma_2 = -0.000379$ ($p = 0.1886$; 95\% CI [-0.000955, 0.000197]). Spearman checks yielded $\rho_{emig,dest} = 0.049$ ($p = 0.7895$) and $\rho_{remit,dest} = -0.176$ ($p = 0.3354$).
+
+\noindent \textbf{Interpretation:} At $\alpha = 0.05$, the null hypothesis is not rejected. The joint linear association with destination GDP growth is weak in this model, indicating limited predictive signal from these two migration-finance predictors alone.
+~\\
