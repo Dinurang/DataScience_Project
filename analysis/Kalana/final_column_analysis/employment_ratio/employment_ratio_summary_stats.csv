@@ -1,2 +1,2 @@
-datapoints,period_start,period_end,monthly_mean,monthly_std,monthly_min,monthly_max,overall_change_1994_to_2025
-384,1994-01-01,2025-12-01,49.76882552083333,1.7329028663683572,45.254,53.426,-3.033999999999999
+mean,std_dev,min,max,overall_change,n_months
+49.7688,1.7329,45.254,53.426,-3.034,384

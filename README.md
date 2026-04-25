@@ -13,4 +13,4 @@ Chanupa Gurusinghe     - 230222M
 Lasana Pahanga         - 230455E
 ```
 
-#### 
+#### Please run the .ipynb in suitable environment such as jupyter notebooks and .py file in python interpreter.
