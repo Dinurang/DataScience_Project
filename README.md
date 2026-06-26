@@ -1,9 +1,9 @@
-### This is the DataScience Project analysis 
-#### Contains Codebase and visualisations.
+### This is the analysis of Sri Lanka Emigration and Remittances data-science research. 
+#### Contains Codebase and Visualisations.
 
-#### Inside `/Analysis` folder you can find folders corresponding to each member: 
+#### Inside `/Analysis` folder you can find analysis folders corresponding to each contributor: 
 
-#### Group 03 Members
+#### Contributors 
 
 ```
 Dhinanjaya Fernando    - 230181J
