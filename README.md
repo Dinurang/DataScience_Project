@@ -185,4 +185,4 @@ graph TD
 - **Ridge Regression**: Fitted using L2 regularization to penalize collinear variables and prevent overfitting, capturing temporal autoregressive momentum via engineered historical lags (Lag-1 and Lag-12).
 
 
-# The research study based on this repository can be accessed via https://arxiv.org/abs/2606.28190
+#### The research study based on this repository can be accessed via https://arxiv.org/abs/2606.28190
